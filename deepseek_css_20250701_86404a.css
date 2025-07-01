@@ -1,0 +1,48 @@
+:root {
+    --primary-color: #89CFF0;
+    --primary-dark: #5D9EC9;
+    --secondary-color: #FFFFFF;
+    --text-color: #2D3748;
+    --border-color: #E2E8F0;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --hover-color: #6BB9E0;
+    --sold-color: #FF6B6B;
+    --available-color: #77DD77;
+    --glass-color: rgba(255, 255, 255, 0.15);
+    --glass-border: 1px solid rgba(255, 255, 255, 0.2);
+    --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+    --glass-blur: blur(12px);
+    --transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dark-mode {
+    --primary-color: #1E3A8A;
+    --primary-dark: #142C6B;
+    --secondary-color: #121212;
+    --text-color: #E2E8F0;
+    --border-color: #2D3748;
+    --shadow-color: rgba(255, 255, 255, 0.05);
+    --hover-color: #3B82F6;
+    --sold-color: #EF4444;
+    --available-color: #10B981;
+    --glass-color: rgba(30, 58, 138, 0.3);
+    --glass-border: 1px solid rgba(255, 255, 255, 0.1);
+    --glass-shadow: 0 8px 32px 0 rgba(19, 38, 109, 0.3);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: var(--text-color);
+    line-height: 1.7;
+    overflow-x: hidden;
+    transition: var(--transition);
+}
+
+/* Restante do CSS (copiar todo o conteúdo da tag <style> do HTML original) */
